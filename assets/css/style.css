@@ -150,9 +150,39 @@ input[type=submit] {
 }
 
 textarea {
+  width: 100%;
   border: 1px solid #dddddd;
   padding: 10px 10px; 
   box-sizing: border-box;
+}
+
+/* Portfolio */
+
+#portfolio-content {
+  overflow: hidden;
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.portfolio-item {
+  float: left;
+  padding: 31px 25px 0px 3%;
+  width: 175px;
+  height: 175px;
+}
+
+.portfolio-item img {
+  position: absolute;
+}
+
+.portfolio-item-title {
+  background: #4aaaa5;
+  color: #ffffff;
+  position: relative;
+  top: 70%;
+  text-align: center;
+  line-height: 40px;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 /* Footer */
